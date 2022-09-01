@@ -1,0 +1,511 @@
+---
+sidebar: sidebar 
+permalink: asciidoc_syntax.html 
+---
+= Référence AsciiDoc
+:toc: macro
+:hardbreaks:
+:allow-uri-read: 
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+AsciiDoc est un langage de balisage léger, similaire à Markdown. Nous avons choisi AsciiDoc plutôt qu'un démarque standard car il offre davantage de fonctionnalités prêtes à l'emploi. Bien qu'il soit plus puissant, il reste simple à utiliser. Reportez-vous aux sections ci-dessous pour commencer à écrire dans AsciiDoc.
+
+Voir la http://asciidoctor.org/docs/user-manual/["Manuel d'utilisation d'AsciiDoctor"^] pour obtenir de l'aide supplémentaire.
+
+
+
+== Les principes de base
+
+Vous devez connaître quelques éléments pour contribuer à des mises à jour de documents simples.
+
+
+
+=== Titres
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+===== Level 4 section
+....
+Vous ne pouvez avoir qu'un titre de page, mais vous pouvez avoir plusieurs titres de section. Par exemple, vous pouvez avoir trois sections de niveau 1 qui incluent des sections de niveau 2 et 3 :
+
+....
+= Page title
+== Level 1 section
+=== Level 2 section
+== Level 1 section
+== Level 1 section
+=== Level 2 section
+==== Level 3 section
+....
+
+
+=== Texte en gras
+
+....
+*Text*
+....
+
+
+=== Texte en italique
+
+....
+_Text_
+....
+
+
+=== Des listes à puces
+
+....
+* Item 1
++
+Continuation text for the previous list item.
+
+* Item 2
+** Item 2a
+
+* Item 3
+....
+
+TIP: Le + est une suite de liste. Le texte reste en ligne avec l'élément de liste. L'omission du + affecte le formatage de cette ligne.
+
+
+
+=== Listes étiquetées
+
+....
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+ou
+
+....
+[horizontal]
+Item 1::
+Description 1
+
+Item 2::
+Description 2
+....
+Lorsque vous ajoutez [horizontal] au-dessus de l'élément 1, l'étiquette et la description apparaissent sur la même ligne. Cela fonctionne bien lorsque vous avez des descriptions très courtes.
+
+*Exemple sans [horizontal]*
+
+Élément 1:: Description 1
+Élément 2:: Description 2
+
+
+*Exemple avec [horizontal]*
+
+Élément 1:: Description 1
+Élément 2:: Description 2
+
+
+
+
+=== Étapes
+
+....
+.Steps
+
+. Step 1
+
+. Step 2
++
+Info for step 2
+
+. Step 3
+.. Step 3a
+.. Step 3b
+
+. Step 4
+....
+
+TIP: Le + est une suite de liste. Le texte reste en ligne avec l'élément de liste. L'omission du + affecte le formatage de cette ligne.
+
+
+
+=== Images
+
+....
+image:file.png["alt text"]
+....
+_alt text_ signifie autre texte. Il décrit l'image qui apparaît sur la page. L'utilisation principale est destinée aux utilisateurs malvoyants qui utilisent des lecteurs d'écran.
+
+Deux remarques :
+
+. Il est préférable d'inclure le texte alt dans les guillemets car la ponctuation comme les virgules peut affecter la capacité de transformer le contenu d'AsciiDoc en HTML.
+. Le https://docs.asciidoctor.org/asciidoc/latest/macros/images/["Documents d'AsciiDoctor"^] spécifier que _block images_ doit être sur sa propre ligne avec _two_ cotons: `image::file.png`
++
+Mais nous préférons utiliser deux-points, comme indiqué ci-dessus. L'utilisation d'un côlon a le même résultat et il fonctionne mieux avec nos outils internes.
+
+
+
+
+
+=== Vidéos
+
+Hébergé sur YouTube :
+
+....
+video::id[youtube]
+....
+Hébergé localement dans GitHub :
+
+....
+video::file.mp4
+....
+
+
+=== Liens
+
+La syntaxe à utiliser dépend de ce que vous associez à :
+
+*  to an external site
+*  to a section on the same page
+*  to another page in the docs
+
+
+
+
+==== Lien vers un site externe
+
+....
+url[link text^]
+....
+^ ouvre le lien dans un nouvel onglet de navigateur.
+
+
+
+==== Lien vers une section sur la même page
+
+....
+<<section_title>>
+....
+Par exemple :
+
+....
+For more details, see <<Headings>>.
+....
+Le texte du lien peut être autre chose que le titre de la section :
+
+....
+<<section_title,Different link text>>
+....
+Par exemple :
+
+....
+<<Headings,Learn the syntax for headings>>.
+....
+
+
+==== Lien vers une autre page du document
+
+Le fichier doit se trouver dans le même référentiel GitHub :
+
+....
+link:<file_name>.html[Link text]
+....
+Pour créer un lien direct vers une section du fichier, ajoutez un hachage (#) et le titre de la section :
+
+....
+link:<file_name>.html#<section-name-using-dashes-and-all-lower-case>[Link text]
+....
+Par exemple :
+
+....
+link:style.html#use-simple-words[Use simple words]
+....
+
+
+=== Remarques, conseils et mises en garde
+
+Vous pouvez attirer l'attention sur certaines affirmations en utilisant des notes, des conseils ou des mises en garde. Formatez-les comme suit :
+
+....
+NOTE: text
+
+TIP: text
+
+CAUTION: text
+....
+Utilisez chacune de ces solutions avec parcimonie. Vous ne voulez pas créer de pages pleines de notes et de conseils. Ils deviennent moins significatifs si vous le faites.
+
+Voici à quoi ressemble chacun de ces éléments lorsque le contenu d'AsciiDoc est transformé en HTML:
+
+
+NOTE: Ceci est une note. Il contient des informations supplémentaires qu'un lecteur peut avoir besoin de connaître.
+
+
+TIP: Un conseil fournit des informations utiles qui peuvent aider un utilisateur à faire quelque chose ou à comprendre quelque chose.
+
+
+CAUTION: Une mise en garde conseille au lecteur d'agir avec précaution. Utilisez-le dans de rares circonstances.
+
+
+
+== Des produits de pointe
+
+Si vous créez un nouveau contenu, vous devrez passer en revue cette section pour obtenir des détails de grande valeur.
+
+
+
+=== En-têtes de document
+
+Chaque fichier AsciiDoc comprend deux types d'en-têtes. La première est pour GitHub et la seconde pour AsciiDoctor, qui est l'outil de publication qui transforme le contenu d'AsciiDoc en HTML.
+
+L'en-tête GitHub est le tout premier ensemble de contenu du fichier .adoc. Il doit inclure les éléments suivants :
+
+....
+---
+sidebar: sidebar
+permalink: <file_name>.html
+keywords: keyword1, keyword2, keyword3, keyword4, keyword5
+summary: "A summary."
+---
+....
+Les mots-clés et le résumé affectent directement les résultats de la recherche. En fait, le résumé s'affiche dans les résultats de la recherche. Vous devez vous assurer qu'il est convivial. La meilleure pratique consiste à faire en miroir le résumé de votre paragraphe principal.
+
+
+TIP: Il est préférable d'inclure le résumé dans les citations parce que la ponctuation comme les cotons peut affecter la capacité de transformer le contenu d'AsciiDoc en HTML.
+
+L'en-tête suivant passe directement sous le titre du document (voir ). Cet en-tête doit inclure les éléments suivants :
+
+....
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+....
+Vous n'aurez pas besoin de toucher les paramètres de ce titre. Collez-le et oubliez-le.
+
+
+
+=== Paragraphe principal
+
+Le premier paragraphe qui apparaît sous le titre du document doit inclure la syntaxe suivante directement au-dessus :
+
+....
+[.lead]
+This is my lead paragraph for this content.
+....
+[.lead] applique le formatage CSS au paragraphe principal, qui a un format différent du texte qui le suit.
+
+
+
+=== Tableaux
+
+La syntaxe d'une table de base est la suivante :
+
+....
+[cols=2*,options="header",cols="25,75"]
+|===
+| heading column 1
+| heading column 2
+| row 1 column 1 | row 1 column 2
+| row 2 column 1 | row 2 column 2
+|===
+....
+Il existe plusieurs_ façons de formater une table. Reportez-vous à la https://asciidoctor.org/docs/user-manual/#tables["Manuel d'utilisation d'AsciiDoctor"^] pour obtenir de l'aide supplémentaire.
+
+
+TIP: Si une cellule contient du contenu formaté comme des listes à puces, il est préférable d'ajouter un « a » dans l'en-tête de colonne pour activer le formatage. Par exemple : [cols=« 2,2,4a » options=« header »]
+
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#tables["Voir la référence rapide de la syntaxe AsciiDoc pour plus d'exemples de tableau"^].
+
+
+
+=== En-têtes des tâches
+
+Si vous expliquez comment effectuer une tâche, vous pouvez inclure des informations préliminaires avant de passer aux étapes. Vous devrez peut-être dire ce qu'il faut faire après avoir terminé les étapes. Si vous le faites, il est préférable d'organiser ces informations à l'aide des en-têtes, ce qui permet la numérisation.
+
+Utilisez les en-têtes suivants si nécessaire :
+
+_Les informations dont l'utilisateur a besoin pour terminer la tâche._
+
+_Quelques informations contextuelles supplémentaires que l'utilisateur peut avoir besoin de connaître sur cette tâche._
+
+_Étapes individuelles pour terminer la tâche._
+
+_Que doit faire l'utilisateur._
+
+Chacun de ces éléments devrait comprendre un . juste avant le texte, comme ainsi :
+
+....
+.What you'll need
+.About this task
+.Steps
+.What's next?
+....
+Cette syntaxe applique le texte en gras dans une police plus grande.
+
+
+
+=== Syntaxe de commande
+
+Lors de l'entrée de commande, placez la commande entre ` pour appliquer une police à espacement fixe :
+
+....
+`volume show -is-encrypted true`
+....
+Voici à quoi ressemble ce qui suit :
+
+`volume show -is-encrypted true`
+
+Pour des exemples de sortie de commande ou de commande, utilisez la syntaxe suivante :
+
+....
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+....
+Les quatre tirets vous permettent d'entrer des lignes de texte distinctes qui s'affichent ensemble. Voici le résultat :
+
+[listing]
+----
+cluster2::> volume show -is-encrypted true
+
+Vserver  Volume  Aggregate  State  Type  Size  Available  Used
+-------  ------  ---------  -----  ----  -----  --------- ----
+vs1      vol1    aggr2     online    RW  200GB    160.0GB  20%
+----
+
+
+=== Texte variable
+
+Dans les commandes et la sortie de commande, placez le texte variable entre les traits de soulignement pour appliquer l'italique.
+
+....
+`vserver nfs modify -vserver _name_ -showmount enabled`
+....
+Voici à quoi ressemble cette commande et le texte variable :
+
+`vserver nfs modify -vserver _name_ -showmount enabled`
+
+
+NOTE: Les traits de soulignement ne sont pas pris en charge avec la mise en évidence de la syntaxe de code pour le moment.
+
+
+
+=== Mise en surbrillance de la syntaxe du code
+
+La mise en évidence de la syntaxe de code fournit une solution orientée développeur pour documenter les langages les plus courants.
+
+*Exemple de sortie 1*
+
+[source, http]
+----
+POST https://netapp-cloud-account.auth0.com/oauth/token
+Header: Content-Type: application/json
+Body:
+{
+              "username": "<user_email>",
+              "scope": "profile",
+              "audience": "https://api.cloud.netapp.com",
+              "client_id": "UaVhOIXMWQs5i1WdDxauXe5Mqkb34NJQ",
+              "grant_type": "password",
+              "password": "<user_password>"
+}
+----
+*Exemple de sortie 2*
+
+[source, json]
+----
+[
+    {
+        "header": {
+            "requestId": "init",
+            "clientId": "init",
+            "agentId": "init"
+        },
+        "payload": {
+            "init": {}
+        },
+        "id": "5801"
+    }
+]
+----
+*Langues prises en charge*
+
+* bash
+* gondolage
+* https
+* json
+* powershell
+* puppet
+* python
+* yaml
+
+
+*Mise en œuvre*
+
+Copiez et collez la syntaxe suivante, puis ajoutez une langue prise en charge et le code :
+
+....
+[source,<language>]
+<code>
+....
+Par exemple :
+
+....
+[source,curl]
+curl -s https:///v1/ \
+-H accept:application/json \
+-H "Content-type: application/json" \
+-H api-key: \
+-H secret-key: \
+-X [GET,POST,PUT,DELETE]
+....
+
+
+=== Réutilisation du contenu
+
+Si vous avez un morceau de contenu qui est répété sur différentes pages, vous pouvez facilement l'écrire une fois et le réutiliser à travers ces pages. La réutilisation peut s'effectuer à partir d'un même référentiel et entre plusieurs référentiels. Voici comment le système fonctionne.
+
+. Créez un dossier dans votre référentiel nommé _include
++
+https://github.com/NetAppDocs/cloud-tiering["Par exemple, nous vous intéressons au référentiel NetApp Cloud Tiering"^].
+
+. Ajoutez un fichier .adoc dans ce dossier qui comprend le contenu que vous souhaitez réutiliser.
++
+Il peut s'agir d'une phrase, d'une liste, d'un tableau, d'une ou de plusieurs sections, etc. N'incluez rien d'autre dans le fichier --aucun en-tête ou n'importe quoi.
+
+. Accédez maintenant aux fichiers où vous souhaitez réutiliser ce contenu.
+. Si vous réutilisez le contenu à partir du référentiel _same_ GitHub, utilisez la syntaxe suivante sur une ligne :
++
+ include::_include/<filename>.adoc[]
++
+Par exemple :
+
++
+ include::_include/s3regions.adoc[]
+. Si vous réutilisez le contenu dans un référentiel _differe_, utilisez la syntaxe suivante sur une ligne en soi :
++
+ include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
++
+Par exemple :
+
++
+ include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
+
+
+C'est tout !
+
+Si vous souhaitez en savoir plus sur la directive « inclure », https://asciidoctor.org/docs/user-manual/#include-directive["Consultez le manuel d'utilisation d'AsciiDoctor"^].

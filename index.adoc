@@ -1,0 +1,127 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+---
+= Contribuez au contenu technique de NetApp sur GitHub
+:toc: macro
+:hardbreaks:
+:allow-uri-read: 
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La documentation des produits et services NetApp est open source. Vous pouvez ainsi contribuer au contenu en améliorant, rectifications et suggestions. Il vous suffit de disposer d'un compte GitHub et d'une petite initiative.
+
+
+
+== Présentation
+
+Vous pouvez contribuer à notre documentation à l'aide des options suivantes :
+
+* Cliquez sur *demander des modifications de doc* pour soumettre un commentaire général ou pour poser une question sur le contenu. Le contenu NetApp examine ensuite votre demande afin de déterminer les modifications nécessaires aux documents. Il s'agit de l'option la plus courante.
++
+ doc changes,Consultez les instructions détaillées pour cette option.
+
+* Cliquez sur *Modifier cette page* pour modifier directement le contenu vous-même. La direction du contenu NetApp examine ensuite vos modifications et les fusionne.
++
+ edits to the docs,Consultez les instructions détaillées pour cette option.
+
+
+
+
+
+== Demander des modifications du document
+
+L'envoi d'une demande de modification de document constitue la manière la plus courante de contribuer aux documents NetApp. Une fois la demande envoyée, le responsable du contenu confirme qu'il a reçu vos commentaires. Vous recevez une notification de GitHub par e-mail.
+
+Si le responsable du contenu convient que votre suggestion peut améliorer le contenu, il s'engage la modification peu de temps après. Vous recevrez une autre notification indiquant que vos commentaires ont été intégrés.
+
+
+TIP: Tous les commentaires que vous fournissez sont accessibles au public. Toute personne qui navigue vers les problèmes dans GitHub repo peut voir vos commentaires.
+
+.Étapes
+. Si vous ne disposez pas déjà d'un compte GitHub : https://github.com/join["créez-en un à partir de github.com"^].
+. Connectez-vous à votre compte GitHub.
+. À l'aide de votre navigateur Web, ouvrez la page https://docs.netapp.com["docs.netapp.com"] sur la base de vos commentaires.
+. Sur le côté droit de la page, cliquez sur *demander des modifications de doc*.
++
+image:screenshot-request-doc-changes.png["Demander des modifications du document"]
+
++
+Un nouvel onglet de navigateur s'ouvre avec un formulaire que vous pouvez utiliser pour fournir les détails à notre équipe de documents.
+
+. Entrez un titre, puis donnez des détails sur votre demande.
++
+Le champ de commentaire contient le titre et l'URL de la page. Ne supprimez pas ces informations car nous en avons besoin pour comprendre votre demande.
+
++
+image:screenshot-submit-new-issue.png["Soumettre le nouveau problème"]
+
+. Cliquez sur *Envoyer un nouveau problème* pour créer un problème pour votre demande.
+
+
+L'ouverture d'un problème permet la collaboration via les commentaires GitHub. Vous recevrez des notifications par e-mail en fonction des préférences indiquées dans les paramètres de votre compte GitHub.
+
+Vous pouvez également consulter l'état de la demande en cliquant sur *issues* sur la bannière supérieure en regard de la zone de recherche GitHub :
+
+image:screenshot-issues.png["Onglet problèmes"]
+
+
+
+== Envoyez les modifications apportées aux documents
+
+Si vous êtes à l'aise de modifier vous-même le contenu, vous pouvez soumettre les modifications exactes que vous souhaitez voir en modifiant directement le fichier source.
+
+En tant que contributeur externe, vous ne pourrez pas publier le changement directement. L'objet du contenu examine les modifications, apporte les modifications requises et les fusionne ensuite. Vous recevez une notification de GitHub par e-mail.
+
+Si vous avez besoin d'aide avec notre style d'écriture ou la syntaxe de la source, vous pouvez utiliser les ressources suivantes :
+
+* link:style.html["Guide de style des documents NetApp"]
+* link:asciidoc_syntax.html["Syntaxe d'AsciiDoc"]
+
+
+.Étapes
+. Si vous ne disposez pas déjà d'un compte GitHub : https://github.com/join["créez-en un à partir de github.com"^].
+. Connectez-vous à votre compte GitHub.
+. À l'aide de votre navigateur Web, ouvrez la page https://docs.netapp.com["docs.netapp.com"] que vous souhaitez modifier.
+. Sur le côté droit de la page, cliquez sur *Modifier cette page*.
++
+image:screenshot-edit-this-page.png["Modifier cette page"]
+
+. Cliquez sur l'icône représentant un crayon.
++
+image:screenshot-pencil-icon.png["Icône crayon"]
+
+. Modifiez le contenu.
++
+Le contenu est écrit dans AsciiDoc, un langage de balisage léger. Si vous avez besoin d'aide, link:asciidoc_syntax.html["Cliquez ici pour en savoir plus sur la syntaxe d'AsciiDoc"].
+
+. Pour valider vos modifications, faites défiler la page vers le bas et remplissez le formulaire :
++
+.. Entrez un titre et une description facultative.
+.. Sélectionnez *Créer une nouvelle branche pour cette validation et démarrez une demande de collecte*.
+.. Cliquez sur *proposer les modifications*.
++
+GitHub se remplit automatiquement dans un nom de branche (par exemple, _username-patch-n_) pour la modification.
+
++
+image:screenshot-propose-change.png["Proposer le changement de fichier"]
+
+
+
+. Fournissez un commentaire sur la modification que vous avez faite, puis cliquez sur *Créer une demande de collecte*.
++
+image:screenshot-create-pull-request.png["Créer une demande de collecte"]
+
+
+
+Après avoir proposé les modifications, nous les examinerons, procèderons aux modifications nécessaires, puis fusionnons les modifications dans le référentiel GitHub.
+
+Vous pouvez afficher l'état de la demande de collecte en cliquant sur *extraire les demandes* dans la bannière supérieure à côté de la zone de recherche GitHub :
+
+image:screenshot-view-pull-requests.png["Extraire l'onglet demande"]

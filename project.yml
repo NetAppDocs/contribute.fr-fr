@@ -1,0 +1,17 @@
+---
+settings:
+  name: Contributor's Guide
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: fr-fr,us-en,ja-jp,zh-cn,zh-tw,ko-kr,de-de
+sidebar:
+  entries:
+  - title: Contribuer au contenu
+    url: "/index.html"
+  - title: Style des documents NetApp
+    url: "/style.html"
+  - title: Référence AsciiDoc
+    url: "/asciidoc_syntax.html"
