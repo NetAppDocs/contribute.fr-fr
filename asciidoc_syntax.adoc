@@ -173,9 +173,9 @@ video::file.mp4
 
 La syntaxe à utiliser dépend de ce que vous associez à :
 
-*  to an external site
-*  to a section on the same page
-*  to another page in the docs
+* <<Lien vers un site externe>>
+* <<Lien vers une section sur la même page>>
+* <<Lien vers une autre page du document>>
 
 
 
@@ -281,7 +281,7 @@ Les mots-clés et le résumé affectent directement les résultats de la recherc
 
 TIP: Il est préférable d'inclure le résumé dans les citations parce que la ponctuation comme les cotons peut affecter la capacité de transformer le contenu d'AsciiDoc en HTML.
 
-L'en-tête suivant passe directement sous le titre du document (voir ). Cet en-tête doit inclure les éléments suivants :
+L'en-tête suivant passe directement sous le titre du document (voir <<Titres>>). Cet en-tête doit inclure les éléments suivants :
 
 ....
 :hardbreaks:
@@ -334,12 +334,16 @@ Si vous expliquez comment effectuer une tâche, vous pouvez inclure des informat
 
 Utilisez les en-têtes suivants si nécessaire :
 
+.Ce dont vous avez besoin
 _Les informations dont l'utilisateur a besoin pour terminer la tâche._
 
+.Description de la tâche
 _Quelques informations contextuelles supplémentaires que l'utilisateur peut avoir besoin de connaître sur cette tâche._
 
+.Étapes
 _Étapes individuelles pour terminer la tâche._
 
+.Et la suite ?
 _Que doit faire l'utilisateur._
 
 Chacun de ces éléments devrait comprendre un . juste avant le texte, comme ainsi :

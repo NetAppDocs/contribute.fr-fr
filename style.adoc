@@ -67,7 +67,7 @@ Des phrases courtes et simples facilitent la lecture ou la numérisation du cont
 
 **Faire ceci**: “La réplication de données entre les réseaux nécessite une connexion par le biais d'un VPN. Par exemple, entre votre VPC Amazon et votre réseau d'entreprise ou entre AWS et Azure ».
 
-Voir aussi .
+Voir aussi <<minimalisme>>.
 
 
 
@@ -79,7 +79,7 @@ Voir aussi .
 
 **Faire ceci**: “Fournir les autorisations nécessaires avant de déployer votre premier cluster.”
 
-Voir aussi  voice (versus “passive voice”).
+Voir aussi <<voix active (par rapport à la « voix passive »)>>.
 
 
 
@@ -112,7 +112,7 @@ La plupart des gens sont des apprenants visuels. Utilisez des vidéos, des diagr
 * https://docs.netapp.com/us-en/occm/task_getting_started_azure.html["Exemple #2"^]
 
 
-Voir aussi .
+Voir aussi <<graphiques>>.
 
 
 
@@ -291,7 +291,7 @@ Utilisez la casse de style phrase (minuscule) pour presque tout. Seule la majusc
 
 Faites attention pour avertir les utilisateurs des conditions ou procédures qui peuvent provoquer des blessures non mortelles ou extrêmement dangereuses.
 
-Voir  pour les autres étiquettes qui identifient le contenu séparément du flux de contenu principal.
+Voir <<définitions>> pour les autres étiquettes qui identifient le contenu séparément du flux de contenu principal.
 
 
 
@@ -301,7 +301,7 @@ Voir  pour les autres étiquettes qui identifient le contenu séparément du flu
 
 * Concentrez-vous sur la clarté et la facilité d'utilisation du contenu. Si tout le contenu est clair et facile à utiliser, des incohérences mineures n'ont pas d'importance.
 * Soyez cohérent dans la page que vous écrivez.
-* Suivez toujours les instructions de la section  for a global audience.
+* Suivez toujours les instructions de la section <<Écrivez pour un public international>>.
 
 
 
@@ -459,7 +459,7 @@ Les listes d'informations sont généralement plus faciles à numériser et à a
 
 === localisation
 
-Voir  for a global audience.
+Voir <<Écrivez pour un public international>>.
 
 
 
@@ -478,7 +478,7 @@ Voir  for a global audience.
 
 Utilisez LA NOTE pour des informations importantes qui doivent être distinctes du reste du texte. Évitez D'utiliser LA NOTE pour les informations "Nice to Know" qui ne sont pas nécessaires aux utilisateurs pour en savoir plus sur la tâche ou terminer la tâche.
 
-Voir  pour les autres étiquettes qui identifient le contenu séparément du flux de contenu principal.
+Voir <<définitions>> pour les autres étiquettes qui identifient le contenu séparément du flux de contenu principal.
 
 
 
@@ -588,7 +588,7 @@ Sauf mention contraire, suivez les conventions de grammaire, de ponctuation et d
 
 Utilisez LE CONSEIL avec parcimonie, si tout est, parce que notre politique est de toujours documenter les informations de meilleures pratiques par défaut. Si nécessaire, utilisez LE CONSEIL pour contenir des informations sur les meilleures pratiques qui aident les utilisateurs à utiliser un produit ou à effectuer une étape ou une tâche facilement et efficacement.
 
-Voir  pour les autres étiquettes qui identifient le contenu séparément du flux de contenu principal.
+Voir <<définitions>> pour les autres étiquettes qui identifient le contenu séparément du flux de contenu principal.
 
 
 

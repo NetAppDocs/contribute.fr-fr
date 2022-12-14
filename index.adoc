@@ -25,11 +25,11 @@ Vous pouvez contribuer à notre documentation à l'aide des options suivantes :
 
 * Cliquez sur *demander des modifications de doc* pour soumettre un commentaire général ou pour poser une question sur le contenu. Le contenu NetApp examine ensuite votre demande afin de déterminer les modifications nécessaires aux documents. Il s'agit de l'option la plus courante.
 +
- doc changes,Consultez les instructions détaillées pour cette option.
+<<Demander des modifications du document,Consultez les instructions détaillées pour cette option>>.
 
 * Cliquez sur *Modifier cette page* pour modifier directement le contenu vous-même. La direction du contenu NetApp examine ensuite vos modifications et les fusionne.
 +
- edits to the docs,Consultez les instructions détaillées pour cette option.
+<<Envoyez les modifications apportées aux documents,Consultez les instructions détaillées pour cette option>>.
 
 
 
@@ -65,6 +65,7 @@ image:screenshot-submit-new-issue.png["Soumettre le nouveau problème"]
 . Cliquez sur *Envoyer un nouveau problème* pour créer un problème pour votre demande.
 
 
+.Après avoir terminé
 L'ouverture d'un problème permet la collaboration via les commentaires GitHub. Vous recevrez des notifications par e-mail en fonction des préférences indiquées dans les paramètres de votre compte GitHub.
 
 Vous pouvez également consulter l'état de la demande en cliquant sur *issues* sur la bannière supérieure en regard de la zone de recherche GitHub :
@@ -120,6 +121,7 @@ image:screenshot-create-pull-request.png["Créer une demande de collecte"]
 
 
 
+.Après avoir terminé
 Après avoir proposé les modifications, nous les examinerons, procèderons aux modifications nécessaires, puis fusionnons les modifications dans le référentiel GitHub.
 
 Vous pouvez afficher l'état de la demande de collecte en cliquant sur *extraire les demandes* dans la bannière supérieure à côté de la zone de recherche GitHub :
