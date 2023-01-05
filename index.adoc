@@ -33,6 +33,9 @@ Vous pouvez contribuer à notre documentation à l'aide des options suivantes :
 
 
 
+La vidéo suivante montre comment utiliser ces options de contribution. Vous pouvez également faire défiler vers le bas pour lire les instructions écrites.
+
+video::0A-xQJaDkco[youtube,width=848,height=480]
 
 
 == Demander des modifications du document
