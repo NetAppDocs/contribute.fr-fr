@@ -1,0 +1,19 @@
+= 
+:allow-uri-read: 
+
+
+Chez NetApp, nous accordons une grande importance à la créativité et à l'expertise de nos employés, sous-traitants et partenaires pour créer, publier et maintenir une documentation technique précise, pertinente et utile pour nos clients. Nous pensons que l'utilisation du contenu généré par l'IA peut compromettre ces valeurs et nuire à l'intégrité et à la précision de notre documentation. Par conséquent, NetApp a pour politique d'interdire l'utilisation du contenu généré par l'IA dans toute la documentation technique publiée sur docs.netapp.com. Il convient de noter que cette politique est similaire à la politique NetApp qui interdit l'utilisation de modèles de langues pour écrire du code pour les produits qu'elle vend.
+
+Tous les contributeurs NetAppDocs doivent respecter la politique suivante :
+
+. *Interdiction de l'utilisation de contenu généré par l'IA:* nous n'autorisons pas l'utilisation de contenu généré par l'IA dans toute documentation technique que nous créons pour nos clients. Cela comprend les documents écrits, les graphiques, les contenus multimédias ou d'autres documents publiés sur netapp.com. Tout le contenu publié sur docs.netapp.com doit être créé par nos employés, sous-traitants ou partenaires en utilisant leur propre créativité, leur expertise et leur propre expérience.
+. *Éducation et formation :* nous offrons une formation et une éducation régulières à nos employés, entrepreneurs et partenaires sur l'utilisation du contenu généré par l'IA et les raisons pour lesquelles nous ne le autorisons pas dans notre documentation technique. Nous encourageons toutes les personnes associées à notre entreprise à rester informées sur les derniers développements de contenu généré par l'IA et de leurs implications pour la documentation technique NetApp.
+. *Conformité et rapports :* tous les employés, entrepreneurs et partenaires sont responsables de la conformité à la présente politique. Toute violation ou violation présumée de cette politique doit être immédiatement signalée au service juridique de NetApp pour enquête.
+
+
+Les contributeurs NetAppDocs doivent garder à l'esprit les points suivants :
+
+* N'utilisez pas l'IA pour générer ou modifier la documentation technique des produits précédemment non commercialisés, des versions de produits ou des fonctionnalités des produits.
+* Les droits d'auteur relatifs à la nouvelle documentation technique doivent rester au sein de NetApp et ne doivent pas être communiqués à des tiers avant les dates officielles de publication du produit et la publication de la documentation technique correspondante.
+* N'envoyez pas de documentation confidentielle, de nouveau contenu ou de tout contenu écrit après 2021, y compris des URL, dans ai (ChatGPT ou tout autre outil). Toutes les informations fournies par ChatGPT font partie de son dataset d'entraînement, qui à son tour devient la propriété d'OpenAI et peut être utilisé par eux et leurs utilisateurs. Bien que la plupart de ces données soient accessibles au public, nous ne voulons pas entraîner le modèle sur notre propre propriété intellectuelle.
+
