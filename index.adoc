@@ -48,9 +48,9 @@ Si le responsable du contenu convient que votre suggestion peut améliorer le co
 TIP: Tous les commentaires que vous fournissez sont accessibles au public. Toute personne qui navigue vers les problèmes dans GitHub repo peut voir vos commentaires.
 
 .Étapes
-. Si vous ne disposez pas déjà d'un compte GitHub : https://github.com/join["créez-en un à partir de github.com"^].
+. Si vous ne disposez pas déjà d'un compte GitHub : https://["créez-en un à partir de github.com"^].
 . Connectez-vous à votre compte GitHub.
-. À l'aide de votre navigateur Web, ouvrez la page https://docs.netapp.com["docs.netapp.com"] sur la base de vos commentaires.
+. À l'aide de votre navigateur Web, ouvrez la page https://["docs.netapp.com"] sur la base de vos commentaires.
 . Sur le côté droit de la page, cliquez sur *demander des modifications de doc*.
 +
 image:screenshot-request-doc-changes.png["Demander des modifications du document"]
@@ -90,9 +90,9 @@ Si vous avez besoin d'aide avec notre style d'écriture ou la syntaxe de la sour
 
 
 .Étapes
-. Si vous ne disposez pas déjà d'un compte GitHub : https://github.com/join["créez-en un à partir de github.com"^].
+. Si vous ne disposez pas déjà d'un compte GitHub : https://["créez-en un à partir de github.com"^].
 . Connectez-vous à votre compte GitHub.
-. À l'aide de votre navigateur Web, ouvrez la page https://docs.netapp.com["docs.netapp.com"] que vous souhaitez modifier.
+. À l'aide de votre navigateur Web, ouvrez la page https://["docs.netapp.com"] que vous souhaitez modifier.
 . Sur le côté droit de la page, cliquez sur *Modifier cette page*.
 +
 image:screenshot-edit-this-page.png["Modifier cette page"]

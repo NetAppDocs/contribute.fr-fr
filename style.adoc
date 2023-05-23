@@ -108,8 +108,8 @@ Commencez par ce qui est important pour l'utilisateur. Découvrez ce que l'utili
 La plupart des gens sont des apprenants visuels. Utilisez des vidéos, des diagrammes et des captures d'écran pour améliorer l'apprentissage. Les images permettent également de briser des blocs de texte.
 
 .Exemples
-* https://docs.netapp.com/us-en/occm/concept_accounts_aws.html["Exemple #1"^]
-* https://docs.netapp.com/us-en/occm/task_getting_started_azure.html["Exemple #2"^]
+* https://["Exemple #1"^]
+* https://["Exemple #2"^]
 
 
 Voir aussi <<graphiques>>.
@@ -121,8 +121,8 @@ Voir aussi <<graphiques>>.
 Utilisez les en-têtes, les listes et les tableaux pour aider les utilisateurs à rechercher ce qu'ils souhaitent.
 
 .Exemples
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Exemple #1"^]
-* https://docs.netapp.com/us-en/cloud_volumes/aws/reference_selecting_service_level_and_quota.html["Exemple #2"^]
+* https://["Exemple #1"^]
+* https://["Exemple #2"^]
 
 
 
@@ -132,8 +132,8 @@ Utilisez les en-têtes, les listes et les tableaux pour aider les utilisateurs �
 Si vous décrivez comment effectuer une série de tâches, placez-la sur une page dans une série de sections, y compris des informations conceptuelles et basées sur des références. Ne décomposer pas votre page en plusieurs mini-pages, ce qui nécessite trop de clic. En même temps, ne créez pas de longues pages intimidantes. Faites preuve de jugement pour décider quand une page est trop longue.
 
 .Exemples
-* https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Exemple #1"^]
-* https://docs.netapp.com/us-en/occm/concept_ha.html["Exemple #2"^]
+* https://["Exemple #1"^]
+* https://["Exemple #2"^]
 
 
 
@@ -200,9 +200,9 @@ Utilisez la voix passive lorsque :
 
 Pour plus d'informations sur les conventions verb, voir :
 
-* https://docs.microsoft.com/en-us/style-guide/welcome/["Guide des styles d'écriture Microsoft"^]
-* https://www.chicagomanualofstyle.org/home.html["Manuel de style de Chicago"^]
-* https://www.merriam-webster.com/["Dictionnaire Merriam-Webster en ligne"^]
+* https://["Guide des styles d'écriture Microsoft"^]
+* https://["Manuel de style de Chicago"^]
+* https://["Dictionnaire Merriam-Webster en ligne"^]
 
 
 
@@ -375,9 +375,9 @@ Les contractions renforcent un ton de conversation, et de nombreuses contraction
 
 Sauf mention contraire, suivez les conventions de grammaire, de ponctuation et d'orthographe détaillées dans :
 
-* https://docs.microsoft.com/en-us/style-guide/welcome/["Guide des styles d'écriture Microsoft"^]
-* https://www.chicagomanualofstyle.org/home.html["Manuel de style de Chicago"^]
-* https://www.merriam-webster.com/["Dictionnaire Merriam-Webster en ligne"^]
+* https://["Guide des styles d'écriture Microsoft"^]
+* https://["Manuel de style de Chicago"^]
+* https://["Dictionnaire Merriam-Webster en ligne"^]
 
 
 
@@ -494,8 +494,8 @@ Voir <<définitions>> pour les autres étiquettes qui identifient le contenu sé
 * Si une phrase contient un mélange de nombres inférieurs à 10 et supérieurs à 10, utilisez des chiffres arabes pour tous les nombres.
 * Pour plus d'informations sur les conventions de numéros, voir :
 +
-** https://docs.microsoft.com/en-us/style-guide/welcome/["Guide des styles d'écriture Microsoft"^]
-** https://www.chicagomanualofstyle.org/home.html["Manuel de style de Chicago"^]
+** https://["Guide des styles d'écriture Microsoft"^]
+** https://["Manuel de style de Chicago"^]
 
 
 
@@ -548,9 +548,9 @@ Privilégier la simplicité. En général, plus la ponctuation incluse dans une 
 * Limitez l'utilisation de points-virgules et de points-virgules.
 * Sauf mention contraire, suivez les conventions de grammaire, de ponctuation et d'orthographe détaillées dans :
 +
-** https://docs.microsoft.com/en-us/style-guide/welcome/["Guide des styles d'écriture Microsoft"^]
-** https://www.chicagomanualofstyle.org/home.html["Manuel de style de Chicago"^]
-** https://www.merriam-webster.com/["Dictionnaire Merriam-Webster en ligne"^]
+** https://["Guide des styles d'écriture Microsoft"^]
+** https://["Manuel de style de Chicago"^]
+** https://["Dictionnaire Merriam-Webster en ligne"^]
 
 
 
@@ -567,9 +567,9 @@ Utiliser “depuis” pour indiquer un passage de temps. Ne pas utiliser "depuis
 
 Sauf mention contraire, suivez les conventions de grammaire, de ponctuation et d'orthographe détaillées dans :
 
-* https://docs.microsoft.com/en-us/style-guide/welcome/["Guide des styles d'écriture Microsoft"^]
-* https://www.chicagomanualofstyle.org/home.html["Manuel de style de Chicago"^]
-* https://www.merriam-webster.com/["Dictionnaire Merriam-Webster en ligne"^]
+* https://["Guide des styles d'écriture Microsoft"^]
+* https://["Manuel de style de Chicago"^]
+* https://["Dictionnaire Merriam-Webster en ligne"^]
 
 
 
@@ -594,7 +594,7 @@ Voir <<définitions>> pour les autres étiquettes qui identifient le contenu sé
 
 === marques commerciales
 
-Nous n’incluons pas de symboles de marque dans la plupart de nos contenus techniques car les déclarations juridiques de nos modèles sont suffisantes. Cependant, nous suivons toutes les règles d'utilisation lors de l'utilisation https://www.netapp.com/us/legal/netapptmlist.aspx["Conditions de marques commerciales de NetApp"^]:
+Nous n’incluons pas de symboles de marque dans la plupart de nos contenus techniques car les déclarations juridiques de nos modèles sont suffisantes. Cependant, nous suivons toutes les règles d'utilisation lors de l'utilisation https://["Conditions de marques commerciales de NetApp"^]:
 
 * Utilisez des termes de marque de commerce (avec ou sans le symbole) uniquement en tant qu'adjectifs, jamais en tant que noms, verbes ou verbes verbaux.
 * Ne pas abréger, hyphétiser ou mettre en italitér les conditions de marque déposée.
