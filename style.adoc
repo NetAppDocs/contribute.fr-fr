@@ -30,16 +30,16 @@ TIP: Lisez votre écriture à plein volume. Comme l’a dit Elmore Leonard, roma
 | Trop formel | Trop décontracté | Notre style 
 
 
-| Si vous rencontrez des problèmes avec Cloud Tiering, vous pouvez consulter l'état de l'état du tableau de bord du cluster pour déterminer la raison de l'erreur. L'état de santé reflète l'état du système ONTAP et du connecteur de service. | Ce n'est pas amusant quand des échecs se produisent. Ne vous inquiétez pas, il vous suffit de consulter le tableau de bord du cluster pour voir ce qui s'est passé et ce qui est affecté. | En cas de défaillance, Cloud Tiering affiche l'état d'intégrité « en échec » sur le tableau de bord du cluster. Afficher l'état pour obtenir des informations sur la défaillance. 
+| Si vous rencontrez des problèmes avec Cloud Tiering, vous pouvez consulter l'état de l'état du tableau de bord du cluster pour déterminer la raison de l'erreur. L'état de santé reflète l'état du système ONTAP et du connecteur de service. | Ce n'est pas amusant quand les pannes se produisent. Pour plus d'informations, consultez le tableau de bord du cluster et découvrez ce qui s'est passé et ce qui est affecté. | En cas de défaillance, Cloud Tiering affiche un état d'intégrité « échec » dans le tableau de bord du cluster. Afficher l'état pour obtenir des informations sur la défaillance. 
 
 
-| Vous pouvez payer le Tiering dans le cloud de plusieurs manières. Vous pouvez payer pour le Tiering cloud par le biais d'un abonnement avec paiement à l'utilisation, vous pouvez payer par l'intermédiaire d'une licence de Tiering ONTAP, ou vous pouvez combiner les deux. Vous ne pouvez pas obtenir de licence dans Cloud Manager. Vous devez accéder directement au service Cloud Tiering pour le configurer. | Nous vous proposons trois options de paiement pour le Tiering dans le cloud. Un abonnement au paiement à l'utilisation, bien sûr, mais aussi une licence de Tiering ONTAP, ou même une combinaison des deux. Mais vous ne pouvez pas obtenir de licence de Cloud Manager. Il vous suffit donc de passer directement au service Cloud Tiering pour l'installer. | Avec le paiement à l'utilisation du Tiering dans le cloud, vous bénéficiez d'un abonnement avec paiement basé sur l'utilisation, d'une licence de Tiering ONTAP ou d'une combinaison des deux. Les licences ne sont pas disponibles dans Cloud Manager, mais vous pouvez accéder directement au service Cloud Tiering pour la configurer. 
+| Vous pouvez payer le Tiering dans le cloud de plusieurs manières. Vous pouvez payer pour le Tiering cloud par le biais d'un abonnement avec paiement à l'utilisation, vous pouvez payer par l'intermédiaire d'une licence de Tiering ONTAP, ou vous pouvez combiner les deux. Vous ne pouvez pas obtenir de licence dans Cloud Manager. Vous devez accéder directement au service Cloud Tiering pour le configurer. | Nous vous proposons trois options de paiement pour le Tiering dans le cloud. Un abonnement au paiement à l'utilisation, bien sûr, mais aussi une licence de Tiering ONTAP, ou même une combinaison des deux. Mais vous ne pouvez pas obtenir de licence auprès de Cloud Manager. Il vous suffit d'accéder directement au service Cloud Tiering pour le configurer. | Avec le paiement à l'utilisation du Tiering dans le cloud, vous bénéficiez d'un abonnement avec paiement basé sur l'utilisation, d'une licence de Tiering ONTAP ou d'une combinaison des deux. Les licences ne sont pas disponibles dans Cloud Manager, mais vous pouvez accéder directement au service Cloud Tiering pour le configurer. 
 
 
 | Avant de pouvoir provisionner le stockage, vous devez découvrir votre cluster ONTAP à partir de Cloud Manager. Une fois la détection terminée, vous devez ouvrir l'environnement de travail pour provisionner le stockage. | Tout d'abord, il suffit de découvrir votre cluster ONTAP depuis Cloud Manager, puis d'ouvrir l'environnement de travail pour commencer à provisionner le stockage. Facile ! | Une fois que vous avez découvert votre cluster ONTAP depuis Cloud Manager, ouvrez l'environnement de travail pour provisionner le stockage. 
 
 
-| Vous pouvez analyser les attributs bien-être de votre système de stockage de deux façons différentes, en fonction de ce que vous voulez analyser : sélectionnez le widget d'attributs bien-être dans le tableau de bord ou sélectionnez Afficher tout pour afficher la liste complète des attributs bien-être. | Vous avez deux méthodes pour analyser les attributs bien-être de votre système : il vous suffit de sélectionner le widget d'attributs bien-être sur le tableau de bord. Ou, si vous souhaitez voir la liste complète des attributs de bien-être dans une vue, sélectionnez Afficher tout. | Sélectionnez le widget d'attribut bien-être du tableau de bord ou sélectionnez View All pour afficher la liste de toutes les actions et risques. 
+| Vous pouvez analyser les attributs bien-être de votre système de stockage de deux façons différentes, en fonction de ce que vous voulez analyser : sélectionnez le widget d'attributs bien-être dans le tableau de bord ou sélectionnez Afficher tout pour afficher la liste complète des attributs bien-être. | Vous pouvez analyser les attributs d'intégrité de votre système de deux manières : il vous suffit de sélectionner le widget d'attribut d'intégrité dans le tableau de bord. Ou, si vous préférez voir toute la liste des attributs de bien-être dans une vue, sélectionnez Afficher tout. | Sélectionnez le widget d'attribut bien-être du tableau de bord ou sélectionnez View All pour afficher la liste de toutes les actions et risques. 
 
 
 | Au démarrage de l'assistant d'installation, suivez les instructions de l'assistant pour configurer le nœud et le joindre au cluster. Les étapes suivantes vous permettent de suivre les étapes de l'assistant. | L'assistant d'installation apparaît (comme pour la magie), pour vous guider dans le processus simple de configuration du nœud et de connexion au cluster. | Suivez les instructions de l'assistant d'installation pour configurer le nœud et le joindre au cluster. 
@@ -61,7 +61,7 @@ TIP: Lisez votre écriture à plein volume. Comme l’a dit Elmore Leonard, roma
 
 == Écriture minimale
 
-Des phrases courtes et simples facilitent la lecture ou la numérisation du contenu. Il est acceptable d’utiliser une phrase plus longue à chaque fois, puis de la suivre avec une phrase plus courte. Comme ceci.
+Des phrases courtes et simples facilitent la lecture ou la numérisation du contenu. Il est possible d'utiliser une phrase plus longue tous les jours, mais de la suivre avec une phrase plus courte. Comme ceci.
 
 **Au lieu de cela**: “Pour répliquer des données entre un système Cloud Volumes ONTAP dans AWS et des systèmes ONTAP dans d’autres réseaux, vous devez disposer d’une connexion VPN entre le VPC Amazon et l’autre réseau, par exemple un réseau Azure VNet ou votre réseau d’entreprise.”
 
@@ -73,7 +73,7 @@ Voir aussi <<minimalisme>>.
 
 == Écrivez activement
 
-Éviter la voix passive est une règle standard pour l'écriture technique, mais il est particulièrement important d'utiliser la voix active lorsque vous souhaitez une conversation.
+Éviter la voix passive est une règle standard pour la rédaction technologique, mais il est particulièrement important d'utiliser la voix active lorsque vous voulez faire entendre la conversation.
 
 **Au lieu de cela**: “Les autorisations requises doivent être fournies avant de déployer votre premier cluster.”
 
@@ -129,7 +129,7 @@ Utilisez les en-têtes, les listes et les tableaux pour aider les utilisateurs �
 
 == Concentrez-vous sur un objectif d'utilisateur ou un aspect spécifique de cet objectif
 
-Si vous décrivez comment effectuer une série de tâches, placez-la sur une page dans une série de sections, y compris des informations conceptuelles et basées sur des références. Ne décomposer pas votre page en plusieurs mini-pages, ce qui nécessite trop de clic. En même temps, ne créez pas de longues pages intimidantes. Faites preuve de jugement pour décider quand une page est trop longue.
+Si vous décrivez comment effectuer une série de tâches, placez-la sur une seule page dans une série de sections, y compris des informations conceptuelles et basées sur des références. Ne divisez pas votre page en plusieurs mini-pages, ce qui nécessite trop de clic. En même temps, ne créez pas de longues pages intimidantes. Faites preuve de jugement pour décider quand une page est trop longue.
 
 .Exemples
 * https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Exemple #1"^]
@@ -138,7 +138,7 @@ Si vous décrivez comment effectuer une série de tâches, placez-la sur une pag
 
 
 
-== Organiser le contenu autour de l'objectif de l'utilisateur
+== Organisez le contenu autour de l'objectif de l'utilisateur
 
 Aidez les utilisateurs à trouver les informations dont ils ont besoin au moment opportun. Les sortir et les sortir des documents aussi rapidement que possible, en organisant le contenu comme suit :
 
@@ -164,9 +164,9 @@ Nos clients et partenaires du monde entier bénéficient d'une grande partie de 
 * Évitez le jargon, les colloquialismes et les métaphores.
 * Évitez les exemples non techniques.
 * Éviter d'utiliser des retours durs et un espacement.
-* N’utilisez pas d’humour ni d’ironie.
+* N'utilisez pas l'humour ou l'ironie.
 * N'utilisez pas de contenu discriminatoire.
-* Ne pas utiliser un langage biaisé par sexe sauf si vous écrivez pour une personne spécifique.
+* N'utilisez pas de langage biaisé à l'égard du sexe, sauf si vous écrivez pour un personnage spécifique.
 
 
 
@@ -193,9 +193,9 @@ Dans la voix passive, le doteur de l'action n'est pas clair :
 
 Utilisez la voix passive lorsque :
 
-* Vous ne savez pas qui ou ce qui a réalisé l'action.
+* Vous ne savez pas qui ou ce qui a effectué l'action.
 * Vous voulez éviter de blâmer les utilisateurs pour les résultats d'une action.
-* Vous ne pouvez pas y écrire, par exemple pour des informations préalables.
+* Vous ne pouvez pas écrire autour de lui, par exemple pour certaines informations préalables.
 
 
 Pour plus d'informations sur les conventions verb, voir :
@@ -213,7 +213,7 @@ Utilisez les étiquettes suivantes pour identifier le contenu séparément du fl
 
 * REMARQUE
 +
-Utilisez LA NOTE pour des informations importantes qui doivent être distinctes du reste du texte. Évitez D'utiliser LA NOTE pour les informations "Nice to Know" qui ne sont pas nécessaires aux utilisateurs pour en savoir plus sur la tâche ou terminer la tâche.
+Utilisez LA NOTE pour des informations importantes qui doivent être distinctes du reste du texte. Évitez d'utiliser une NOTE pour obtenir des informations « utiles » qui ne sont pas nécessaires aux utilisateurs pour en savoir plus sur la tâche ou pour la terminer.
 
 * CONSEIL
 +
@@ -238,7 +238,7 @@ Faites attention pour avertir les utilisateurs des conditions ou procédures qui
 === également
 
 * Utilisez « également » pour dire « plus ».
-* Ne pas utiliser "aussi" pour dire "alternativement."
+* N'utilisez pas non plus pour désigner « alternativement ».
 
 
 
@@ -251,7 +251,7 @@ Choisissez le terme le plus précis s'il y en a un. Si aucun des deux termes n�
 
 === comme
 
-Ne pas utiliser « AS » pour dire « parce que ».
+N'utilisez pas « comme » pour dire « parce ».
 
 
 
@@ -267,9 +267,9 @@ Ne pas utiliser « AS » pour dire « parce que ».
 
 * Utilisez “CAN” pour indiquer la capacité : “vous pouvez valider vos modifications à tout moment au cours de cette procédure.”
 * Utilisez “peut” pour indiquer la possibilité : “le téléchargement de plusieurs programmes peut affecter le temps de traitement.”
-* N’utilisez pas « May », ce qui est ambigu car il peut signifier la capacité ou l’autorisation.
+* N'utilisez pas « May », ce qui est ambigu car cela peut signifier soit la capacité, soit la permission.
 * Utilisez “devrait” pour indiquer une action recommandée mais facultative. Envisagez plutôt d’utiliser une phrase alternative, comme « nous recommandons ».
-* Évitez d’utiliser « must » parce qu’il est passif. Envisagez de restaper la pensée comme une instruction à l'aide de la voix impérative. Si vous utilisez “must”, utilisez-le pour indiquer une action ou une condition requise.
+* Évitez d'utiliser le mot « must » car il est passif. Envisagez de restaper la pensée comme une instruction à l'aide de la voix impérative. Si vous utilisez “must”, utilisez-le pour indiquer une action ou une condition requise.
 
 
 
@@ -297,9 +297,9 @@ Voir <<définitions>> pour les autres étiquettes qui identifient le contenu sé
 
 === la cohérence
 
-"Écrivez comme vous parlez quand vous expliquez quelque chose à un collègue professionnel" signifie quelque chose de différent pour tout le monde. Notre style informel nous permet de nous connecter aux utilisateurs et augmente la fréquence des incohérences entre les différents auteurs :
+« Ecrivez comme vous parlez lorsque vous expliquez quelque chose à un collègue professionnel » signifie quelque chose de différent pour tout le monde. Notre style informel nous permet de nous connecter aux utilisateurs et augmente la fréquence des incohérences entre les différents auteurs :
 
-* Concentrez-vous sur la clarté et la facilité d'utilisation du contenu. Si tout le contenu est clair et facile à utiliser, des incohérences mineures n'ont pas d'importance.
+* Concentrez-vous sur la clarté et la facilité d'utilisation du contenu. Si tout le contenu est clair et facile à utiliser, les incohérences mineures n'ont pas d'importance.
 * Soyez cohérent dans la page que vous écrivez.
 * Suivez toujours les instructions de la section <<Écrivez pour un public international>>.
 
@@ -315,7 +315,7 @@ Les contractions renforcent un ton de conversation, et de nombreuses contraction
 |===
 
 
-| ne le sont pas | vous êtes 
+| ne le sont pas | c'est possible 
 
 
 | n'est pas | c'est le cas 
@@ -327,7 +327,7 @@ Les contractions renforcent un ton de conversation, et de nombreuses contraction
 | je n'ai pas été | allons-y 
 
 
-| pas | nous (si une tension future est nécessaire) 
+| pas | nous le ferons (si une tension future est nécessaire) 
 
 
 | pas | pas (si une tension future est nécessaire) 
@@ -340,13 +340,13 @@ Les contractions renforcent un ton de conversation, et de nombreuses contraction
 |===
 
 
-| cela aurait été le cas | devrait l'être 
+| nous l'aurions fait | devrait l'avoir 
 
 
-| n’en aurait pas | ne devrait pas l’avoir 
+| je ne l'aurais pas fait | ne devrait pas avoir 
 
 
-| peut-être | cela n'aurait pas pu se faire 
+| pourrait-il avoir | je n'en aurais pas pu 
 |===
 
 
@@ -384,7 +384,7 @@ Sauf mention contraire, suivez les conventions de grammaire, de ponctuation et d
 
 === sinon
 
-Ne pas utiliser « si pas » par lui-même pour se référer à la phrase précédente :
+Ne pas utiliser « si non » seul pour faire référence à la phrase précédente :
 
 **Plutôt que ceci**: "L'ordinateur doit être éteint. Si ce n'est pas le cas, éteignez-le. »
 
@@ -423,13 +423,13 @@ Ne pas utiliser « si pas » par lui-même pour se référer à la phrase préc�
 
 === Adresses IP et IPv6
 
-Pour les adresses IP (y compris IPv6) par exemple, il est sûr d’inclure toute adresse commençant par “10.x”.
+Pour les adresses IP (y compris IPv6) dans des exemples, il est possible d'inclure toute adresse commençant par « 10.x ».
 
 
 
 === fonctionnalités ou versions futures
 
-Ne faites pas référence au moment ou au contenu des prochaines versions ou fonctionnalités du produit, à l'exception de dire qu'une fonction ou une fonction n'est pas actuellement prise en charge.
+Ne faites pas référence au calendrier ou au contenu des prochaines versions de produits ou fonctionnalités, autre que de dire qu'une fonctionnalité ou une fonction n'est pas « actuellement prise en charge ».
 
 
 
@@ -449,7 +449,7 @@ Les listes d'informations sont généralement plus faciles à numériser et à a
 * Les entrées de liste doivent commencer par une lettre majuscule et les entrées de liste doivent être grammaticales parallèles. Par exemple, commencez chaque entrée par un nom ou un verbe :
 +
 ** Si toutes les entrées de liste sont des phrases complètes, terminez-les par des périodes.
-** Si toutes les entrées de liste sont des fragments de phrase, ne les terminez pas par des périodes.
+** Si toutes les entrées de liste sont des fragments de phrase, ne les terminez pas par des points.
 
 
 * Les entrées de la liste doivent être ordonnées de manière logique, par exemple par ordre alphabétique ou chronologique.
@@ -476,7 +476,7 @@ Voir <<Écrivez pour un public international>>.
 
 === NOTEZ les informations
 
-Utilisez LA NOTE pour des informations importantes qui doivent être distinctes du reste du texte. Évitez D'utiliser LA NOTE pour les informations "Nice to Know" qui ne sont pas nécessaires aux utilisateurs pour en savoir plus sur la tâche ou terminer la tâche.
+Utilisez LA NOTE pour des informations importantes qui doivent être distinctes du reste du texte. Évitez d'utiliser une NOTE pour obtenir des informations « utiles » qui ne sont pas nécessaires aux utilisateurs pour en savoir plus sur la tâche ou pour la terminer.
 
 Voir <<définitions>> pour les autres étiquettes qui identifient le contenu séparément du flux de contenu principal.
 
@@ -533,7 +533,7 @@ Les prérequis identifient les conditions qui doivent exister ou les actions que
 === précédent (par rapport à “avant”, “précédent” ou “précédent”)
 
 * Si possible, remplacer "antérieur" par "avant".
-* Si vous ne pouvez pas utiliser « avant », utilisez « précédent » comme adjectif pour désigner quelque chose qui s'est produit plus tôt dans le temps ou avec un ordre plus élevé d'importance.
+* Si vous ne pouvez pas utiliser « avant », utilisez « avant » comme adjectif pour faire référence à quelque chose qui s'est produit plus tôt dans le temps ou avec un ordre plus important.
 * Utilisez “précédent” pour indiquer quelque chose qui s'est produit à un moment non spécifié plus tôt.
 * Utilisez “précédent” pour indiquer quelque chose qui s'est produit immédiatement avant.
 
@@ -559,7 +559,7 @@ Privilégier la simplicité. En général, plus la ponctuation incluse dans une 
 
 === depuis
 
-Utiliser “depuis” pour indiquer un passage de temps. Ne pas utiliser "depuis" pour dire "parce".
+Utiliser “depuis” pour indiquer un passage de temps. N'utilisez pas « depuis » pour dire « parce ».
 
 
 
@@ -594,12 +594,12 @@ Voir <<définitions>> pour les autres étiquettes qui identifient le contenu sé
 
 === marques commerciales
 
-Nous n’incluons pas de symboles de marque dans la plupart de nos contenus techniques car les déclarations juridiques de nos modèles sont suffisantes. Cependant, nous suivons toutes les règles d'utilisation lors de l'utilisation https://www.netapp.com/us/legal/netapptmlist.aspx["Conditions de marques commerciales de NetApp"^]:
+Nous n'incluons pas de symboles de marque commerciale dans la plupart de notre contenu technique, car les mentions légales dans nos modèles sont suffisantes. Cependant, nous suivons toutes les règles d'utilisation lors de l'utilisation https://www.netapp.com/us/legal/netapptmlist.aspx["Conditions de marques commerciales de NetApp"^]:
 
 * Utilisez des termes de marque de commerce (avec ou sans le symbole) uniquement en tant qu'adjectifs, jamais en tant que noms, verbes ou verbes verbaux.
-* Ne pas abréger, hyphétiser ou mettre en italitér les conditions de marque déposée.
-* Ne pas pluraliser les conditions de marques déposées. Si une forme plurielle est requise, utilisez le nom de marque déposée comme adjectif qui modifie un nom pluriel.
-* N'utilisez pas une forme possessive d'un terme de marque déposée. Vous pouvez utiliser la forme possessive de noms d'entreprise, comme NetApp, lorsque les noms sont utilisés de manière générale, plutôt que comme conditions de marque de commerce.
+* N'utilisez pas d'abréviations, de césure ou d'italique pour les termes des marques commerciales.
+* Ne pas plurialiser les termes des marques déposées. Si une forme plurielle est requise, utilisez le nom de marque déposée comme adjectif qui modifie un nom pluriel.
+* N'utilisez pas une forme possessive de terme de marque déposée. Vous pouvez utiliser la forme possessive de noms d'entreprise, comme NetApp, lorsque les noms sont utilisés de manière générale, plutôt que comme conditions de marque de commerce.
 
 
 
@@ -617,8 +617,8 @@ Notre style de documentation des interfaces utilisateur est simple et minimal :
 * Supposons que l'utilisateur utilise l'interface lors de la lecture du contenu.
 * Utilisez l'interface pour guider l'utilisateur :
 +
-** Ne faites pas passer l'utilisateur par un assistant ou un écran étape par étape. N'appelez que les éléments importants qui ne sont pas apparents de l'interface.
-** N'incluez pas "cliquez OK", "cliquez sur Enregistrer" ou "le volume est créé" ou tout autre élément évident à quelqu'un qui fait la tâche.
+** Ne pas guider l'utilisateur pas à pas dans un assistant ou un écran. N'appelez que les éléments importants qui ne sont pas apparents de l'interface.
+** N'incluez pas « cliquez sur OK » ou « cliquez sur Enregistrer » ou « le volume est créé » ou toute autre information évidente pour quelqu'un qui effectue la tâche.
 ** Supposer le succès. Sauf si vous pensez qu'une opération échoue la plupart du temps, ne documentez pas le chemin d'échec. Supposons que l'interface fournit un guidage approprié.
 
 
@@ -633,9 +633,9 @@ Notre style de documentation des interfaces utilisateur est simple et minimal :
 
 ==== Dénomination des éléments de l'interface utilisateur
 
-Évitez de fournir des informations sur le niveau de granularité qui nécessite de nommer les éléments de l'interface utilisateur. Utilisez l'interface pour guider l'utilisateur à travers les détails de l'interaction. Si vous devez obtenir ce spécifique, nommez-le sur l'élément. Par exemple, "sélectionnez le volume désiré" ou "sélectionnez "utiliser le volume existant". Il n'est pas nécessaire de nommer des menus, des boutons radio ou des cases à cocher, il suffit d'utiliser l'étiquette.
+Évitez de fournir des informations sur le niveau de granularité qui nécessite de nommer les éléments de l'interface utilisateur. Utilisez l'interface pour guider l'utilisateur à travers les détails de l'interaction. Si vous devez obtenir ce spécifique, nommez-le sur l'élément. Par exemple, « sélectionnez le volume souhaité » ou « sélectionnez « utiliser un volume existant ». Il n'est pas nécessaire de nommer des menus, des boutons radio ou des cases à cocher, il suffit d'utiliser l'étiquette.
 
-Pour les icônes que les utilisateurs doivent sélectionner, utilisez une image de l'icône. N’essayez pas de le nommer. Cette règle s'applique à des icônes comme la flèche, le crayon, l'engrenage, le kabob, le hamburger, et ainsi de suite.
+Pour les icônes que les utilisateurs doivent sélectionner, utilisez une image de l'icône. N'essayez pas de le nommer. Cette règle s'applique à des icônes comme la flèche, le crayon, l'engrenage, le kabob, le hamburger, et ainsi de suite.
 
 
 
