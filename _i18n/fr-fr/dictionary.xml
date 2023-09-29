@@ -17,7 +17,6 @@
   <block id="f8bf3ad3550f95af891e242fcfff7b8a" category="inline-link">docs.netapp.com</block>
   <block id="8a4e27c18032ec0b6639a19d635d31e4" category="list-text">À l'aide de votre navigateur Web, ouvrez la page<block ref="09765d13a2c7e990410fb33027d9cebd" category="inline-link-rx"></block> sur la base de vos commentaires.</block>
   <block id="58d1e1d3dad3ec015e2540b3713ef488" category="paragraph"><block ref="58d1e1d3dad3ec015e2540b3713ef488" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="da894d315c3a28edc86e627db54669ca" category="paragraph">Un nouvel onglet de navigateur s'ouvre avec un formulaire que vous pouvez utiliser pour fournir les détails à notre équipe de documents.</block>
   <block id="f6e56229ccb769a21a8ee36c8ce1097b" category="inline-image-macro">Soumettre le nouveau problème</block>
   <block id="947e4b9915f7e5c398e8dbce136bcf89" category="paragraph"><block ref="947e4b9915f7e5c398e8dbce136bcf89" category="inline-image-macro-rx" type="image"></block></block>
   <block id="95aee4fc901facb0b53ed386f6ba53da" category="paragraph">L'ouverture d'un problème permet la collaboration via les commentaires GitHub. Vous recevrez des notifications par e-mail en fonction des préférences indiquées dans les paramètres de votre compte GitHub.</block>
@@ -443,7 +442,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="97dd767bd76bea2996ce155f6fded935" category="list-text">Sélectionnez *demander des modifications au document* pour soumettre des commentaires généraux ou pour poser une question sur le contenu. Le contenu NetApp examine ensuite votre demande afin de déterminer les modifications nécessaires aux documents. Il s'agit de l'option la plus courante.</block>
   <block id="52b3d02fd2caf09c367f6a8e47835fc2" category="list-text">Sélectionnez *Modifier cette page* pour modifier directement le contenu vous-même. La direction du contenu NetApp examine ensuite vos modifications et les fusionne.</block>
-  <block id="c9dfb8a3cf2c4d02f86adae4807900dc" category="paragraph">La vidéo suivante présente brièvement ces deux options :</block>
   <block id="3cafc4d2380a4f8525dcaa0a65259e21" category="video-title">Aperçu de contribution à docs.netapp.com</block>
   <block id="626ac697ef02a0c6709fb546054d122b" category="paragraph">Les sections ci-dessous fournissent des instructions détaillées.</block>
   <block id="07c96edbc201979283e816b9981511ba" category="list-text">Si vous ne disposez pas déjà d'un compte GitHub :<block ref="23432af0d50ca18ea33f0fbce4450214" category="inline-link-rx"></block></block>
@@ -513,4 +511,7 @@
   <block id="bd62ac2d873965d23f9623cfb0176399" category="paragraph">Évitez de fournir des informations sur le niveau de granularité qui nécessite de nommer les éléments de l'interface utilisateur. Utilisez l'interface pour guider l'utilisateur à travers les détails de l'interaction. Si vous devez obtenir ce spécifique, nommez-le sur l'élément. Par exemple, « sélectionnez le volume souhaité » ou « sélectionnez « utiliser un volume existant ». Il n'est pas nécessaire de nommer des menus, des boutons radio ou des cases à cocher, il suffit d'utiliser l'étiquette.</block>
   <block id="bf9c7e854a6c302d5349d2128c75933d" category="paragraph">Pour les icônes que les utilisateurs doivent sélectionner, utilisez une image de l'icône. N'essayez pas de le nommer. Cette règle s'applique à des icônes comme la flèche, le crayon, l'engrenage, le kabob, le hamburger, et ainsi de suite.</block>
   <block id="3d053f543ceb20e8d9a54ccac1275a6f" category="paragraph">Une capture d'écran occasionnelle (« capture d'écran ») permet aux utilisateurs de s'assurer qu'ils sont au bon endroit dans une interface lors du démarrage ou du changement d'interfaces au cours d'un flux de travail. N'utilisez pas les captures d'écran pour afficher les données à saisir ou la valeur à sélectionner.</block>
+  <block id="aa475deb1febd97e43051f4cd6e0e03c" category="paragraph">La vidéo suivante présente brièvement ces deux options.</block>
+  <block id="d2a6bdb03847dd26c195e27066ccdb58" category="paragraph">Un nouvel onglet de navigateur s'ouvre avec un formulaire GitHub que vous pouvez utiliser pour fournir des détails à notre équipe doc.</block>
+  <block id="60a186f1a1bf3949fd214cb8c41bc66f" category="paragraph">Un nouvel onglet de navigateur s'ouvre et vous amène au fichier du référentiel GitHub pour le site de documentation.</block>
 </blocks>

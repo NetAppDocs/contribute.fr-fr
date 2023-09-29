@@ -33,7 +33,7 @@ Vous pouvez contribuer à notre documentation à l'aide des options suivantes :
 
 
 
-La vidéo suivante présente brièvement ces deux options :
+La vidéo suivante présente brièvement ces deux options.
 
 .Aperçu de contribution à docs.netapp.com
 video::37b6207f-30cd-4517-a80a-b08a0138059b[panopto]
@@ -59,7 +59,7 @@ TIP: Tous les commentaires que vous fournissez sont accessibles au public. Toute
 image:screenshot-request-doc-changes.png["Demander des modifications du document"]
 
 +
-Un nouvel onglet de navigateur s'ouvre avec un formulaire que vous pouvez utiliser pour fournir les détails à notre équipe de documents.
+Un nouvel onglet de navigateur s'ouvre avec un formulaire GitHub que vous pouvez utiliser pour fournir des détails à notre équipe doc.
 
 . Entrez un titre, un résumé et reconnaissez que le problème ne contient aucune information sensible.
 +
@@ -99,6 +99,9 @@ Si vous avez besoin d'aide avec notre style d'écriture ou la syntaxe de la sour
 . En haut de la page, sélectionnez *Suggérer les modifications > Modifier cette page*.
 +
 image:screenshot-edit-this-page.png["Modifier cette page"]
+
++
+Un nouvel onglet de navigateur s'ouvre et vous amène au fichier du référentiel GitHub pour le site de documentation.
 
 . Sélectionnez l'icône crayon.
 +
