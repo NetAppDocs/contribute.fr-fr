@@ -3,15 +3,12 @@ sidebar: sidebar
 permalink: style.html 
 ---
 = Guide de style des documents NetApp
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -310,44 +307,34 @@ Voir <<définitions>> pour les autres étiquettes qui identifient le contenu sé
 
 Les contractions renforcent un ton de conversation, et de nombreuses contractions sont faciles à comprendre et à traduire.
 
-* Utilisez des contractions comme celles-ci, qui sont faciles à comprendre et à traduire :
-+
-|===
+.Utilisez des contractions comme celles-ci, qui sont faciles à comprendre et à traduire :
+* ne le sont pas
+* impossible
+* pas
+* pas
+* ne le faites pas
+* n'est pas
+* c'est
+* allons-y
+* ce n'était pas le cas
+* c'est le cas
+* je n'ai pas été
+* c'est possible
 
 
-| ne le sont pas | c'est possible 
+.N'utilisez pas ces contractions lorsque des tensions futures sont requises :
+* nous allons
+* non
+* nous allons
 
 
-| n'est pas | c'est le cas 
-
-
-| ce n'était pas le cas | c'est 
-
-
-| je n'ai pas été | allons-y 
-
-
-| pas | nous le ferons (si une tension future est nécessaire) 
-
-
-| pas | pas (si une tension future est nécessaire) 
-
-
-| ne le faites pas | vous (si une tension future est nécessaire) 
-|===
-* N'utilisez pas les contractions comme celles-ci, qui sont difficiles à comprendre et à traduire :
-+
-|===
-
-
-| nous l'aurions fait | devrait l'avoir 
-
-
-| je ne l'aurais pas fait | ne devrait pas avoir 
-
-
-| pourrait-il avoir | je n'en aurais pas pu 
-|===
+.N'utilisez pas les contractions comme celles-ci, qui sont difficiles à comprendre et à traduire :
+* pourrait-il avoir
+* je n'en aurais pas pu
+* devrait l'avoir
+* ne devrait pas avoir
+* nous l'aurions fait
+* je ne l'aurais pas fait
 
 
 
