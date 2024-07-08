@@ -382,6 +382,12 @@ Suivez ces instructions pour écrire à l'attention d'un public international :
 
 
 
+=== acronymes et abréviations
+
+Utilisez des acronymes et des abréviations bien connus pour vous familiariser, mais évitez les acronymes obscurs qui pourraient nuire à la clarté et à la findabilité. Pour des conventions supplémentaires concernant les acronymes et les abréviations, reportez-vous à la https://learn.microsoft.com/en-us/style-guide/welcome/["Guide des styles d'écriture Microsoft"^].
+
+
+
 === voix active (par rapport à la voix passive)
 
 Reportez-vous à la section <<Écrivez activement>>.
@@ -390,20 +396,21 @@ Reportez-vous à la section <<Écrivez activement>>.
 
 === définitions
 
-Utilisez les étiquettes suivantes pour identifier le contenu séparément du flux de contenu principal :
+Les avertissements sont un outil puissant lorsqu'ils sont utilisés correctement. Ils peuvent attirer l'attention sur des informations importantes, fournir des conseils utiles ou avertir les utilisateurs des dangers potentiels. Lorsqu'ils sont utilisés de manière excessive, ils perdent leur impact et peuvent entraîner une fatigue de l'utilisateur. Voici quelques lignes directrices pour assurer l'utilisation efficace des admonitions.
 
-* REMARQUE
-+
-Utilisez LA NOTE pour des informations importantes qui doivent être distinctes du reste du texte. Évitez d'utiliser la NOTE pour obtenir des informations « agréables à connaître » qui ne sont pas nécessaires aux utilisateurs pour en savoir plus sur la tâche ou pour la terminer.
+Utilisez les étiquettes suivantes pour séparer les admonitions du flux de contenu principal :
 
-* CONSEIL
-+
-Utilisez LE CONSEIL avec parcimonie, si tout est, parce que notre politique est de toujours documenter les informations de meilleures pratiques par défaut. Si nécessaire, utilisez LE CONSEIL pour contenir des informations sur les meilleures pratiques qui aident les utilisateurs à utiliser un produit ou à effectuer une étape ou une tâche facilement et efficacement.
+* REMARQUE utilisez la NOTE pour mettre en évidence les informations importantes qui doivent se démarquer du reste du texte. Cependant, évitez d'utiliser la NOTE pour des informations « agréables à connaître » qui ne sont pas essentielles pour que les utilisateurs comprennent ou remplissent une tâche. Le but d'une NOTE est d'attirer l'attention du lecteur sur les points critiques qu'ils pourraient autrement négliger.
+* Les conseils doivent être utilisés avec parcimonie, voire avec parcimonie, car notre politique est de documenter les informations sur les meilleures pratiques par défaut. Si nécessaire, utilisez LE CONSEIL pour mettre en évidence les informations sur les meilleures pratiques qui aident les utilisateurs à utiliser un produit ou à effectuer une étape ou une tâche plus facilement et plus efficacement. Un CONSEIL doit fournir des conseils ou des raccourcis utiles qui peuvent améliorer l'expérience de l'utilisateur.
+* ATTENTION faites ATTENTION pour avertir les utilisateurs des conditions ou des actions susceptibles d'entraîner des conséquences indésirables, notamment des blessures ou des dommages matériels. FAITES attention aux dangers potentiels que l'utilisateur doit éviter pour éviter les blessures ou les perturbations.
 
-* AVERTISSEMENT
-+
-Faites attention pour avertir les utilisateurs des conditions ou procédures qui peuvent provoquer des blessures non mortelles ou extrêmement dangereuses.
 
+.Directives supplémentaires
+* Utilisez uniquement les avertissements pris en charge. Tout autre type de formatage n'est pas pris en charge.
+* Évitez de trop utiliser les avertissements. Une utilisation excessive peut conduire les utilisateurs à ignorer ces sections importantes, car ils les voient comme le « tiroir de courrier indésirable » de nos documents.
+* En règle générale, limitez le nombre d'admonitions à un maximum de 3 par page.
+* Fournir des informations claires et concises dans l'admontion. Le message doit être bref et précis, permettant aux utilisateurs de comprendre rapidement l'importance des informations fournies.
+* Évitez les admonitions AsciiDoc dans une table. Si le contenu doit être identifié comme une note, un conseil ou une mise en garde, utilisez Remarque :, Conseil :, ou attention : en tant qu'entrée en ligne du texte.
 
 
 
