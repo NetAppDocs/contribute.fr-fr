@@ -554,7 +554,8 @@ Consultez les articles de la base de connaissances NetApp le cas échéant. Pour
 Les listes d'informations sont généralement plus faciles à numériser et à absorber que les blocs de texte. Envisagez des façons de simplifier les informations complexes en les présentant sous forme de liste. Voici quelques directives générales, mais utilisez votre jugement :
 
 * Assurez-vous que la raison de la liste est claire. Présentez la liste avec une phrase complète, un fragment de phrase avec deux-points ou un en-tête.
-* Les listes doivent comporter entre deux et sept entrées. En général, plus les informations de chaque entrée sont courtes, plus vous pouvez ajouter d'entrées tout en gardant la liste scannable.
+* Lorsque vous utilisez une liste dans une liste, limitez la structure à deux niveaux de profondeur maximum pour maintenir la clarté et la lisibilité. Si vous avez besoin de plus de niveaux, pensez à réorganiser le contenu pour faciliter la navigation et la compréhension des utilisateurs.
+* Toute liste, y compris les listes imbriquées, doit comporter entre deux et sept entrées. En général, plus les informations de chaque entrée sont courtes, plus vous pouvez ajouter d'entrées tout en gardant la liste scannable. Si une liste comporte plusieurs entrées contenant des listes imbriquées, pensez à utiliser des sections ou des titres de bloc pour diviser l'élément entier en plusieurs blocs de consommables.
 * Les entrées de liste doivent être aussi scannables que possible. Évitez les blocs de texte qui peuvent être lus de manière à ce que les entrées de liste soient scannables.
 * Les entrées de liste doivent commencer par une lettre majuscule et les entrées de liste doivent être grammaticales parallèles. Par exemple, commencez chaque entrée par un nom ou un verbe :
 +
