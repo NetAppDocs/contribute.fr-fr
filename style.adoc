@@ -398,17 +398,31 @@ Reportez-vous à la section <<Écrivez activement>>.
 
 Les avertissements sont un outil puissant lorsqu'ils sont utilisés correctement. Ils peuvent attirer l'attention sur des informations importantes, fournir des conseils utiles ou avertir les utilisateurs des dangers potentiels. Lorsqu'ils sont utilisés de manière excessive, ils perdent leur impact et peuvent entraîner une fatigue de l'utilisateur. Voici quelques lignes directrices pour assurer l'utilisation efficace des admonitions.
 
-Utilisez les étiquettes suivantes pour séparer les admonitions du flux de contenu principal :
+.Admonitions standard
+Trois admontions standard utilisent des étiquettes personnalisées. Les étiquettes sont NOTE, CONSEIL et attention. Ces trois admonitions standard sont formatées distinctement du texte normal, et leurs étiquettes sont toujours écrites en majuscules dans la source AsciiDoc.
 
 * REMARQUE utilisez la NOTE pour mettre en évidence les informations importantes qui doivent se démarquer du reste du texte. Cependant, évitez d'utiliser la NOTE pour des informations « agréables à connaître » qui ne sont pas essentielles pour que les utilisateurs comprennent ou remplissent une tâche. Le but d'une NOTE est d'attirer l'attention du lecteur sur les points critiques qu'ils pourraient autrement négliger.
-* Les conseils doivent être utilisés avec parcimonie, voire avec parcimonie, car notre politique est de documenter les informations sur les meilleures pratiques par défaut. Si nécessaire, utilisez LE CONSEIL pour mettre en évidence les informations sur les meilleures pratiques qui aident les utilisateurs à utiliser un produit ou à effectuer une étape ou une tâche plus facilement et plus efficacement. Un CONSEIL doit fournir des conseils ou des raccourcis utiles qui peuvent améliorer l'expérience de l'utilisateur.
+* CONSEIL utilisez le CONSEIL pour fournir des conseils utiles ou des raccourcis qui peuvent améliorer l'expérience de l'utilisateur. Par exemple, un CONSEIL peut aider un utilisateur à effectuer une étape ou une tâche plus facilement et plus efficacement. Un CONSEIL devrait être utilisé avec parcimonie, voire avec parcimonie, car notre politique est de documenter la meilleure façon d'accomplir une tâche par défaut.
 * ATTENTION faites ATTENTION pour avertir les utilisateurs des conditions ou des actions susceptibles d'entraîner des conséquences indésirables, notamment des blessures ou des dommages matériels. FAITES attention aux dangers potentiels que l'utilisateur doit éviter pour éviter les blessures ou les perturbations.
-* MEILLEURES PRATIQUES utilisez LES MEILLEURES PRATIQUES pour mettre en évidence les moyens optimaux de réaliser des tâches ou d'utiliser un produit. Ce ne sont pas de simples suggestions, mais des stratégies qui ont été validées par des experts ou des normes de l'industrie.
-+
-** *Qu'est-ce qui fait une MEILLEURE PRATIQUE?* Il s'agit d'une stratégie exploitable et spécifique à une tâche qui offre des avantages clairs et est soutenue par des sources fiables.
-** *Quand puis-je les utiliser?* Vous pouvez utiliser les MEILLEURES PRATIQUES pour tous les types de contenu et pour tous les publics. Comme les CONSEILS, utilisez-les avec parcimonie pour maintenir leur signification.
-** *Comment les formater?* Présentez LES MEILLEURES PRATIQUES dans un format cohérent et convivial. Il peut s'agir d'une liste à puces, d'une liste numérotée ou d'un paragraphe, selon le contexte.
 
+
+.Admonition des meilleures pratiques
+L'admonition de la meilleure pratique n'est pas une étiquette d'admontion personnalisée mais peut être utilisée comme convention de formatage autonome. Utilisez les meilleures pratiques pour mettre en évidence les méthodes optimales pour réaliser des tâches ou utiliser un produit. Ce ne sont pas de simples suggestions, mais des stratégies qui ont été validées par des experts ou des normes de l'industrie.
+
+* *Qu'est-ce qui fait une meilleure pratique?*
++
+Il s'agit d'une stratégie exploitable et spécifique à une tâche qui offre des avantages clairs et est soutenue par des sources fiables.
+
+* *Quand puis-je utiliser la meilleure pratique?*
++
+Vous pouvez utiliser les meilleures pratiques pour tous les types de contenu et pour tous les publics. Comme les CONSEILS, utilisez-les avec parcimonie pour maintenir leur signification.
+
+* *Comment puis-je formater la meilleure pratique?*
++
+Pour utiliser le format des meilleures pratiques, appliquez la majuscule de style phrase, mettez en gras le terme meilleure pratique, suivi d'un deux-points et d'un espace.
+
++
+Présentez les meilleures pratiques dans un format cohérent et convivial. Il peut s'agir d'une liste à puces, d'une liste numérotée ou d'un paragraphe, selon le contexte. Par exemple, *meilleure pratique* : testez toujours vos modifications de configuration dans un environnement de staging avant de les appliquer à la production.
 
 
 
