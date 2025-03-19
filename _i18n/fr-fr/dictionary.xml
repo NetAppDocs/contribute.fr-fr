@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="927796bbaa454c7de262b6c5f63a9498" category="doc">Contribuez au contenu technique de NetApp sur GitHub</block>
   <block id="5b1673a33a3bc92200f7685076cfb382" category="paragraph">La documentation des produits et services NetApp est open source. Vous pouvez ainsi contribuer au contenu en améliorant, rectifications et suggestions. Il vous suffit de disposer d'un compte GitHub et d'une petite initiative.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">Présentation</block>
   <block id="f1eb983643f08d3d76ff0c9dcdd99f9b" category="paragraph">Vous pouvez contribuer à notre documentation à l'aide des options suivantes :</block>
@@ -591,4 +590,11 @@
   <block id="36744f1e0c64e2f519e59cccdba068a1" category="list-text">*Comment puis-je formater la meilleure pratique?*</block>
   <block id="c326700655ab8fca23fa2162a1adaa37" category="paragraph">Pour utiliser le format des meilleures pratiques, appliquez la majuscule de style phrase, mettez en gras le terme meilleure pratique, suivi d'un deux-points et d'un espace.</block>
   <block id="0c4265fbbfc82a92746e47643f565c1c" category="paragraph">Présentez les meilleures pratiques dans un format cohérent et convivial. Il peut s'agir d'une liste à puces, d'une liste numérotée ou d'un paragraphe, selon le contexte. Par exemple, *meilleure pratique* : testez toujours vos modifications de configuration dans un environnement de staging avant de les appliquer à la production.</block>
+  <block id="264e061aa850fbdff533ac273d529d09" category="summary">NetApp a pour politique d'interdire la publication de contenu généré par l'IA qui n'a pas été vérifié et validé par un humain.</block>
+  <block id="d0482f09772a334a3c8f4646a75d2ae4" category="summary">Apprenez la syntaxe AsciiDoc pour contribuer à la documentation NetApp.</block>
+  <block id="a383d20edf0eed3b667f267bc4178aa1" category="summary">Aidez-nous à améliorer la documentation des produits NetApp en apportant des améliorations, des corrections et des suggestions.</block>
+  <block id="810127b15467af054cfb3174cf01513c" category="doc">Contribuer à la documentation des produits NetApp dans GitHub</block>
+  <block id="5fc1774ab777f265a9e9e8436a4165bc" category="summary">Notre style est conversationnel et empathique, mais nous restons professionnels et faisons le point.</block>
+  <block id="db974238714ca8de634a7ce1d083a14f" category="section-title">API</block>
+  <block id="e823e37af27041a01f75462ee35c0848" category="paragraph">Une interface de programmation d'applications (API) fait référence à une interface unique qui permet d'accéder à un produit ou à un service spécifique. Dans une API de produit de grande taille, utilisez le terme _API_ pour faire référence à chaque ensemble de noeuds finaux associés à un type de ressource ou à un composant. Lorsque vous faites référence à plusieurs interfaces distinctes, utilisez le terme _API_.</block>
 </blocks>

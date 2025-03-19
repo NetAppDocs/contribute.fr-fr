@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: style.html 
+keywords: style, netapp docs style, netapp docs writing style, voice 
+summary: Notre style est conversationnel et empathique, mais nous restons professionnels et faisons le point. 
 ---
 = Guide de style des documents NetApp
 :hardbreaks:
@@ -455,6 +457,12 @@ Présentez les meilleures pratiques dans un format cohérent et convivial. Il pe
 === et/ou
 
 Choisissez le terme le plus précis s'il y en a un. Si aucun des deux termes n'est plus précis que l'autre, utilisez « et/ou ».
+
+
+
+=== API
+
+Une interface de programmation d'applications (API) fait référence à une interface unique qui permet d'accéder à un produit ou à un service spécifique. Dans une API de produit de grande taille, utilisez le terme _API_ pour faire référence à chaque ensemble de noeuds finaux associés à un type de ressource ou à un composant. Lorsque vous faites référence à plusieurs interfaces distinctes, utilisez le terme _API_.
 
 
 
