@@ -85,11 +85,7 @@ Si vous êtes à l'aise de modifier vous-même le contenu, vous pouvez soumettre
 
 En tant que contributeur externe, vous ne pourrez pas publier le changement directement. L'objet du contenu examine les modifications, apporte les modifications requises et les fusionne ensuite. Vous recevez une notification de GitHub par e-mail.
 
-Si vous avez besoin d'aide avec notre style d'écriture ou la syntaxe de la source, vous pouvez utiliser les ressources suivantes :
-
-* link:style.html["Guide de style des documents NetApp"]
-* link:asciidoc_syntax.html["Syntaxe d'AsciiDoc"]
-
+Si vous avez besoin d'aide pour éditer le fichier source, vous pouvezlink:asciidoc_syntax.html["en savoir plus sur la syntaxe AsciiDoc"] .
 
 .Étapes
 . Si vous ne disposez pas déjà d'un compte GitHub : https://github.com/join["créez-en un à partir de github.com"^]

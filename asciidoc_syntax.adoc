@@ -483,9 +483,6 @@ curl -s https:///v1/ \
 Si vous avez un morceau de contenu qui est répété sur différentes pages, vous pouvez facilement l'écrire une fois et le réutiliser à travers ces pages. La réutilisation peut s'effectuer à partir d'un même référentiel et entre plusieurs référentiels. Voici comment le système fonctionne.
 
 . Créez un dossier dans votre référentiel nommé _include
-+
-https://github.com/NetAppDocs/cloud-tiering["Par exemple, nous vous intéressons au référentiel NetApp Cloud Tiering"^].
-
 . Ajoutez un fichier .adoc dans ce dossier qui comprend le contenu que vous souhaitez réutiliser.
 +
 Il peut s'agir d'une phrase, d'une liste, d'un tableau, d'une ou de plusieurs sections, etc. N'incluez rien d'autre dans le fichier --aucun en-tête ou n'importe quoi.
@@ -503,12 +500,8 @@ Par exemple :
 +
  include::https://raw.githubusercontent.com/NetAppDocs/<reponame>/main/_include/<filename>.adoc[]
 +
-Par exemple :
-
-+
- include::https://raw.githubusercontent.com/NetAppDocs/cloud-tiering/main/_include/s3regions.adoc[]
-
-
 C'est tout !
+
+
 
 Si vous souhaitez en savoir plus sur la directive « inclure », https://asciidoctor.org/docs/user-manual/#include-directive["Consultez le manuel d'utilisation d'AsciiDoctor"^].

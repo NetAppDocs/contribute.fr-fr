@@ -11,8 +11,6 @@ sidebar:
   entries:
   - title: Contribuer au contenu
     url: "/index.html"
-  - title: Style des documents NetApp
-    url: "/style.html"
   - title: Référence AsciiDoc
     url: "/asciidoc_syntax.html"
   - title: Règle sur le contenu généré par l'IA
